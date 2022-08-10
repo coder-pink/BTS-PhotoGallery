@@ -49,58 +49,19 @@ h1::before {
     
 }
 
-/* .first-content{
-    background-color: rgb(171, 196, 230);
-    max-width: 93%;
-    margin: 0 auto 20px auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-height: 50px;
-    align-items: center;
-    border-radius: 7px;
-    box-shadow: 3px 3px 5px rgb(115, 126, 138);
-} */
 
-/* h3{
-    max-height: 100%;
-    background-color: rgb(59, 65, 71);
-    line-height: 50px;
-    padding: 0 50px;
-    cursor: pointer;
-    color: rgb(231, 224, 224);
-    display: flex;
-} */
 
- /* label{
-    display: inline-block;
-    height: 50%;
-    
-     margin: 0px 30px; 
-     line-height: 50%;
-    align-items: center;
-    font-size: 16px;
-    cursor: pointer;
-    transition: .5s;
-    color: grey;
-}  */
 
-/* label:hover{
-    color: black;
-    font-style: oblique;
-    font-weight: bold;
-} */
+
+
+
 
 .container {
     overflow-y: scroll;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
-/* 
-.container::-webkit-scrollbar { /* WebKit */
-    /* width: 0; */
-    /* height: 0; */
-/* }  */
+
 
 
 
@@ -110,24 +71,21 @@ h1::before {
 
 .photo_gallery{
     max-width: 100%;
-    /* max-height: auto; */
+    
     margin: 20px 25px 0 29px;
-    /* display: grid; */
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-gap: 20px; */
+   
     }
 
 .pic{
     position: relative;
     max-height: 100%;
-    /* border-radius: 30px; */
-    /* box-shadow: 2px 2px 4px lightgrey; */
-    /* display: flex; */
+    
 }
 
 img{
@@ -139,7 +97,3 @@ img{
   
 }
 
-/* @media (max-width: 800px) {
-    #gallery img {
-      width: 50%;
-    } */
