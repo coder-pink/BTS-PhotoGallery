@@ -2,21 +2,21 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 /* head section css */
-.container{
+.container {
     max-width: 100%;
     text-align: center;
     background: #EBE7E7;
     opacity: 0.8;
- /* margin: 100px; */
+    /* margin: 100px; */
 
 }
 
-h1{
+h1 {
     font-weight: normal;
     font-size: 40px;
     position: relative;
@@ -37,16 +37,18 @@ h1::before {
 }
 
 @keyframes animate {
-    0%{
+    0% {
         width: 300px;
     }
-    50%{
+
+    50% {
         width: 200px;
     }
-     100%{
+
+    100% {
         width: 100px;
     }
-    
+
 }
 
 
@@ -58,8 +60,10 @@ h1::before {
 
 .container {
     overflow-y: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
 }
 
 
@@ -69,31 +73,56 @@ h1::before {
     display: none;
 }
 
-.photo_gallery{
+.photo_gallery {
     max-width: 100%;
-    
+
     margin: 20px 25px 0 29px;
-    
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-   
-    }
+    gap: 0.7rem;
 
-.pic{
+}
+
+.pic {
     position: relative;
     max-height: 100%;
-    
+
 }
 
-img{
-    border-radius: 10px ;
+img {
+    border-radius: 10px;
     padding: 10px;
-    box-shadow: 2px 2px 4px rgb(126, 92, 126); 
-   height: 300px;
-   width: 435px;
-  
+    box-shadow: 2px 2px 4px rgb(126, 92, 126);
+    height: 300px;
+    width: 415px;
+
 }
 
+/* added media query for screen viewport */
+@media (max-width : 550px) {
+    img {
+        height: 300px;
+        width: 370px;
+    }
+
+}
+
+
+@media (max-width : 280px) {
+    img {
+        height: 200px;
+        width: 270px;
+    }
+
+
+    h1 {
+
+        font-size: 30px;
+
+    }
+
+}
