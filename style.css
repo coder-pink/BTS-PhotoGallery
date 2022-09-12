@@ -99,6 +99,7 @@ img {
     box-shadow: 2px 2px 4px rgb(126, 92, 126);
     height: 300px;
     width: 415px;
+    object-fit: cover;
 
 }
 
@@ -125,4 +126,11 @@ img {
 
     }
 
+
+
+}
+
+.photo_gallery::after {
+    content: "";
+    width: 415px;
 }
